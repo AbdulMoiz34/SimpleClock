@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    position: relative;
+    font-size: 40px;
+}
+
+.container {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(41, 171, 226);
+}
+
+sub {
+    position: absolute;
+    bottom: -27%;
+    left: 30px;
+    font-size: 14px;
+}
+
+sup {
+    position: absolute;
+    top: -20%;
+    font-size: 15px;
+}
